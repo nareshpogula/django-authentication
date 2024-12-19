@@ -1,0 +1,20 @@
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{ "username": "dhoni07", "password": "msd123!" }
+
+###
+
+POST http://127.0.0.1:8000/signup
+Content-Type: application/json
+
+{ "username": "dhoni07", "password": "msd123!", "email": "msd07@gmail.com" }
+
+###
+
+GET http://127.0.0.1:8000/test_token
+Content-Type: application/json
+Authorization: Token 27f42d79bf85513054e867bb7fdfe7b7d8c742c5
+
+{}
